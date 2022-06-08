@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: employeeServiceClient
+  profiles:
+    active:
+    - default
+  cloud:
+    config:
+      uri: http://localhost:8888
+      
+server:
+  port: 8082
